@@ -1,0 +1,7 @@
+<h1>Welcome to Grumemon, we sell you small animals so that you can make them fight each other. To the death.</h1>
+
+<%= form_tag(search_path, method: :get) do %>
+  <p>Enter a search term below</p>
+  <%= text_field_tag :option %>
+  <%= submit_tag "GO!" %>
+<% end %>
